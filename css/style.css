@@ -58,6 +58,8 @@ a {
     color: var(--main-bg-color)
 }
 
+/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -84,6 +86,100 @@ a {
 .navbar-links a:hover {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
+}
+
+/* Header */
+header {
+    margin-bottom: 2.5rem;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+.search-bar {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.search-bar i {
+    border-radius: 1rem 0 0 1rem;
+    padding: 1rem;
+    background-color: var(--main-bg-color);
+    color: black;
+    border: 1px solid var(--main-bg-color);
+    font-size: 1rem;
+}
+
+.search-bar input {
+    color: black;
+    padding: 1rem;
+    border: 1px solid var(--main-bg-color);
+
+    font-size: 1rem;
+}
+
+.search-bar button {
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 0 1rem 1rem 0;
+    padding: 1rem;
+    border: 1px solid var(--main-color);
+    font-size: 1rem;
+}
+
+/* Filtes */
+
+.filtres {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filtres h2 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.filtres span p {
+    margin: 0;
+}
+
+.filtres span {
+    border-radius: 2rem;
+    border: 2px solid var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.filtres span i {
+    color: var(--main-color);
+}
+
+.filtres span:hover {
+    background-color: var(--filter-bg-color);
+}
+
+/* Information */
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info i {
+    border-radius: 2rem;
+    padding: 0;
+    padding:0.5rem 1rem;
+    border: 2px solid var(--main-bg-color);
+    margin-right: 0.5rem;
 }
 
 /****** Hebergements And Populaires ***********/
