@@ -58,6 +58,34 @@ a {
     color: var(--main-bg-color)
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.navbar-logo {
+    width: 4rem;
+    height: auto;
+    padding-top: 1rem;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    padding-top: 1rem;
+    border-top: 2px solid transparent; /* ajout de la mm bordure que le hover pour évité le saut au hover du a l'apparition de la bordure */
+}
+
+.navbar-links a:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
