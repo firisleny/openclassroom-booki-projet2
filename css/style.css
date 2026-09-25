@@ -3,6 +3,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.body {
+    margin: 0;
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
