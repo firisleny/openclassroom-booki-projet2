@@ -58,6 +58,9 @@ a {
     color: var(--main-bg-color)
 }
 
+.small-text {
+    font-size: 16px;
+}
 /* Navbar */
 
 .navbar {
@@ -134,11 +137,11 @@ header {
     gap: 1rem;
 }
 
-.filtres span p {
+.filtres div p {
     margin: 0;
 }
 
-.filtres span {
+.filtres div {
     border-radius: 2rem;
     border: 2px solid var(--main-bg-color);
     display: flex;
@@ -150,11 +153,11 @@ header {
     padding: 1rem;
 }
 
-.filtres span i {
+.filtres div i {
     color: var(--main-color);
 }
 
-.filtres span:hover {
+.filtres div:hover {
     background-color: var(--filter-bg-color);
 }
 
@@ -204,7 +207,7 @@ header {
 
 .activites-grid img {
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
