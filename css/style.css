@@ -160,7 +160,7 @@ header {
     gap: 1rem;
 }
 
-.filtres-grid div {
+.filtres-grid a {
     border-radius: 2rem;
     border: 2px solid var(--main-bg-color);
     display: flex;
@@ -172,15 +172,15 @@ header {
     padding: 1rem;
 }
 
-.filtres-grid div:hover {
+.filtres-grid a:hover {
     background-color: var(--filter-bg-color);
 }
 
-.filtres-grid div i {
+.filtres-grid a i {
     color: var(--main-color);
 }
 
-.filtres-grid div p {
+.filtres-grid a p {
     margin: 0;
 }
 
