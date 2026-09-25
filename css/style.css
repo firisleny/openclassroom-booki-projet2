@@ -133,6 +133,14 @@ header {
     font-weight: bold;
 }
 
+.search-bar button p {
+    margin: 0;
+}
+
+.search-bar button i {
+    display: none;
+}
+
 /* Filtes */
 
 .filtres {
@@ -401,6 +409,15 @@ footer nav ul li {
     /* Header */
     header {
         padding: 0 20px;
+    }
+
+    .search-bar button p {
+        display: none;
+    }
+
+    .search-bar button i {
+        display: block;
+        color: white;
     }
 
     /* Filtes */
