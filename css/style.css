@@ -386,6 +386,14 @@ footer nav ul li {
         grid-template-rows: repeat(6, 1fr);
     }
 
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
     /* Activités */
     .activites-grid {
         grid-template-columns: repeat(1, 1fr);
