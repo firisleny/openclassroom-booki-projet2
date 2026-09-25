@@ -335,6 +335,11 @@ footer nav ul li {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    /* Activités */
+    .activites-grid img {
+        height: 12rem;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
