@@ -447,6 +447,14 @@ footer nav ul li {
         grid-template-rows: repeat(6, 1fr);
     }
 
+    .hebergements {
+        margin-top: 2.5rem;
+    }
+
+    .populaires {
+        margin-top: 0;
+    }
+
     .populaires-cards {
         flex-direction: column;
     }
