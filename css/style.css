@@ -359,6 +359,50 @@ footer nav ul li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .main-container {
+        padding: 0;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+
+    .navbar-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-links {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+
+    .navbar-links a {
+        padding-bottom: 1rem;
+        padding-top: 0;
+        border-top: none;
+        border-bottom: 2px solid transparent;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-links a:hover {
+        color: var(--main-color);
+        border-top: none;
+        border-bottom: 2px solid var(--main-color);
+    }
+
+    /* Header */
+    header {
+        padding: 0 20px;
+    }
+
     /* Filtes */
 
     .filtres {
@@ -395,6 +439,10 @@ footer nav ul li {
     }
 
     /* Activités */
+    .activites {
+        padding: 0 20px;
+    }
+
     .activites-grid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
