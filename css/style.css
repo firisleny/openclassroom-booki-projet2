@@ -133,8 +133,12 @@ header {
     font-weight: bold;
 }
 
-.search-bar button p {
+.search-bar button span {
     margin: 0;
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
 }
 
 .search-bar button i {
@@ -411,7 +415,7 @@ footer nav ul li {
         padding: 0 20px;
     }
 
-    .search-bar button p {
+    .search-bar button span {
         display: none;
     }
 
