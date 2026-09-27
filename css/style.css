@@ -125,6 +125,7 @@ header {
     border: 1px solid var(--main-bg-color);
     font-size: 1rem;
     font-weight: bold;
+    width: 9rem;
 }
 
 .search-bar button {
@@ -417,6 +418,19 @@ footer nav ul li {
     /* Header */
     header {
         padding: 0 20px;
+    }
+
+    .search-bar {
+        justify-content: center;
+    }
+
+    .search-bar input {
+        width: 100%;
+    }
+
+    .search-bar button {
+        border-radius: 1rem;
+        box-shadow: 0 0 0.3rem black;
     }
 
     .search-bar button span {
