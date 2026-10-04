@@ -374,6 +374,8 @@ footer nav ul li {
     }
 }
 
+
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     .main-container {
@@ -500,5 +502,16 @@ footer nav ul li {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 2rem;
+    }
+}
+
+/* Pour les filtres en dessous de 330px */
+@media (max-width: 330px) {
+    /* Filtes */
+    .filtres-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1rem;
     }
 }
